@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+    /* border: 5px solid white;
+    min-height: calc(100vh - 15px); */
+    margin: 0;
+    padding: 0;
+  }
+  
+  p {
+    font-family: "Scribble", sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+  }
+
+  .header {
+    position: absolute;
+    border: 5px dashed white;
+    background-color: black;
+    height: 50px;
+    width: 200px;
+  
+    top: 0;
+    right: 0;
+  }
+  
