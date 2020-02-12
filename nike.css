@@ -15,23 +15,305 @@ body {
   }
 
   .header_top {
-      background-color:grey;
+      background-color:lightblue;
       display: grid;
-      grid-template-columns: 20vh 20vh 20vh 20vh 80vh;
+      grid-template-columns: 20vh 20vh 20vh 20vh 60vh;
       grid-gap: 10px;
+      height: 30px;
   }
 
   .button {
       background-color: navy;
-      margin-left: 10px;
+      margin-left: 20px;
+      margin-bottom: 20px;
+  }
+
+  .log_in {
+      background-color: navy;
+      margin-left: 500px;
+      height: 30px;
+      width: 55vh;
+      margin-bottom: 15px;
   }
 
   .header_middle {
       background-color: navy;
+      display: grid;
+      grid-template-columns: 30vh 10vh 10vh 10vh 10vh 10vh 50vh;
+      grid-gap: 20px;
+  }
 
+  .logo {
+      background-color: lightblue;
+      margin-top: 10px;
+      height: 40px;
+      width: 30vh;
+      margin-bottom: 10px;
+      margin-left: 10px;
+  }
+
+  .button_2 {
+      background-color: lightblue;
+      margin-top: 10px;
+      height: 40px;
+      width: 10vh;
+      margin-bottom: 10px;
+      margin-left: 250px;
+      
+
+  }
+
+  .search {
+      background-color: lightblue;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: 450px;
+      height: 40px;
+      width: 50vh;
   }
 
   .header_bottom {
       background-color: lightblue;
+      margin: auto;
+  }
+
+  .button_3 {
+      background-color: navy;
+      height: 45px;
+      width: 50vh;
+      margin-left: 550px;
+  }
+
+  .ad {
+      background-color: grey;
+      grid-template-columns: 40vh 40vh;
+      display: grid;
+  }
+
+  .nike {
+      background-color: pink;
+      height: 60vh;
+      width: 80vh;
+      margin-left: 25vh;
+      margin-top: 40px;
+
+  }
+
+  .description {
+      background-color: navy;
+      height: 10vh;
+      width: 40vh;
+      margin: auto;
+      margin-top: 325px;
+
+  }
+
+  .shop {
+      background-color: pink;
+      border: navy dashed;
+      height: 60vh;
+      width: 80vh;
+      margin-top: -250px;
+      margin-left: 400px;
+  }
+
+  .texts {
+      background-color: navy;
+      grid-template-rows: 60vh;
+      margin-top: 152px;
+      height: 60px;
+  }
+
+  .text {
+      background-color: pink;
+      height: 60px;
+      width: 200px;
+      margin-top: 10px;
+      margin-left: 200px;
+      margin-bottom: 10px;
+  }
+
+  .featured {
+      background-color: lightblue;
+      height: 600px;
+      margin-top: -10px;
+      display: grid;
+      grid-template-columns: 600px 600px;
+      grid-gap: 40px;
+  }
+
+  .product {
+      background-color: navy;
+      height: 500px;
+      width: 600px;
+      margin-left: 152px;
+      margin-top: 20px;
+
+  }
+
+  .shop_2 {
+      background-color: pink;
+      height: 30px;
+      width: 100px;
+      margin-top: 400px;
+      margin-left: 100px;
+
+  }
+
+  .texts_2 {
+      background-color: navy;
+      grid-template-rows: 60vh;
+      margin-top: -50px;
+      height: 60px;
+  }
+
+  .text_2 {
+      background-color: pink;
+      height: 60px;
+      width: 200px;
+      margin-top: 10px;
+      margin-left: 200px;
+      margin-bottom: 10px;
+  }
+
+  .week_picks {
+      background-color: lightblue;
+      display: grid;
+      grid-template-columns: 70vh 70vh 70vh;
+      grid-gap: 10px;
+  }
+
+  .image {
+      background-color: navy;
+      height: 400px;
+      width: 400px;
+      margin-top: 20px;
+      margin-left: 50px;
+      margin-bottom: 20px;
+
+  }
+
+  .comment {
+      background-color: pink;
+      height: 60px;
+      width: 200px;
+      margin-top: 300px;
+      margin-left: 20px;
+
+  }
+
+  .texts_3 {
+    background-color: navy;
+    grid-template-rows: 60vh;
+    margin-top: -10px;
+    height: 60px;
+  }
+
+  .text_3 {
+    background-color: pink;
+    height: 60px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+  }
+
+  .exclusive {
+      background-color: lightblue;
+      height: 600px;
+      margin-top: -10px;
+      display: grid;
+      grid-template-columns: 600px 600px;
+      grid-gap: 40px;
+  }
+
+  .product_2 {
+    background-color: navy;
+    height: 500px;
+    width: 600px;
+    margin-left: 152px;
+    margin-top: 20px;
+  }
+
+  .shop_3 {
+    background-color: pink;
+    height: 30px;
+    width: 100px;
+    margin-top: 400px;
+    margin-left: 100px;
+  }
+
+  .texts_4 {
+    background-color: navy;
+    grid-template-rows: 60vh;
+    margin-top: -10px;
+    height: 60px;
+  }
+  
+  .text_4 {
+    background-color: pink;
+    height: 60px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+  }
+
+  .releases {
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: 70vh 70vh 70vh;
+    grid-gap: 10px;
+    height: 450px;
+  }
+
+  .portrait {
+    background-color: navy;
+    height: 400px;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 60px;
+  }
+
+  .text_5 {
+    background-color: pink;
+    height: 60px;
+    width: 200px;
+    margin-top: -150px;
+    margin-left: 60px;
+  }
+
+  .category {
+      background-color: navy;
+      display: grid;
+      grid-template-columns: 30vh 30vh 30vh 30vh;
+      grid-gap: 30px;
+      height: 300px;
+
+  }
+
+  .menu {
+      background-color: pink;
+      height: 150px;
+      width: 100px;
+      margin-top: 80px;
+      margin-left: 335px;
+  }
+
+  .footer {
+      background-color: grey;
+      height: 300px;
+      display: grid;
+      grid-template-columns: 40vh 40vh 40vh;
+      grid-gap: 30px;
+  }
+
+  .menu_2 {
+      background-color: navy;
+      height: 150px;
+      width: 120px;
+      margin-top: 80px;
+      margin-left: 100px;
 
   }

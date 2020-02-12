@@ -1,0 +1,134 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+    /* border: 5px solid white;
+    min-height: calc(100vh - 15px); */
+    margin: 0;
+    padding: 0;
+  }
+  
+  p {
+    font-family: "Scribble", sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+  }
+
+  .header {
+      background-color: black;
+      display: grid;
+      grid-template-columns: 20vh 20vh 20vh 20vh 20vh 20vh 20vh 20vh 20vh;
+      grid-gap: 10px;
+      height: 100px;
+      grid-gap: 20px;
+
+  }
+
+  .mac {
+      background-color: blue;
+      height: 30px;
+      width: 150px;
+      margin-left: 30px;
+      margin-top: 10px;
+  }
+
+  .donate {
+      background-color: purple;
+      height: 150px;
+      margin-top: -50px;
+
+  }
+
+  .australia {
+      background-color: black;
+      height: 100px;
+      width: 550px;
+      margin-left: 450px;
+  }
+
+  .ad {
+      background-color: blue;
+      display: grid;
+      grid-template-rows: 60vh 40vh 60vh;
+      height: 900px;
+  }
+
+  .text {
+      background-color: purple;
+      height: 100px;
+      width: 300px;
+      margin-top: 20px;
+      margin-left: 600px;
+}
+
+  .learn {
+      background-color: purple;
+      height: 200px;
+      width: 350px;
+      margin-left: 575px;
+      margin-top: -300px;
+  }
+
+  .image {
+      background-color: purple;
+      height: 400px;
+      width: 800px;
+      margin-left: 350px;
+      margin-top: -800px;
+  }
+
+  .ad_2 {
+    background-color: black;
+    display: grid;
+    grid-template-rows: 60vh 40vh 60vh;
+    height: 900px;
+    grid-gap: 20px;
+  }
+
+  .texts {
+    background-color: blue;
+    height: 100px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 600px;
+  }
+
+  .learns {
+    background-color: blue;
+    height: 200px;
+    width: 350px;
+    margin-left: 575px;
+    margin-top: -300px;
+  }
+
+  .images {
+    background-color: blue;
+    height: 400px;
+    width: 800px;
+    margin-left: 350px;
+    margin-top: -370px;
+  }
+
+  .ad_3 {
+      background-color: purple;
+      height: 400px;
+      display: grid;
+      grid-template-columns: 60vh 60vh;
+  }
+
+  .image_3 {
+      background-color: blue;
+      height: 200px;
+      width: 300px;
+      
+
+
+  }
+
+  .text_2 {
+      background-color: black;
+      height: 100px;
+      width: 150px;
+
+  }
+

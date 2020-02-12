@@ -1,0 +1,309 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+    /* border: 5px solid white;
+    min-height: calc(100vh - 15px); */
+    margin: 0;
+    padding: 0;
+  }
+  
+  p {
+    font-family: "Scribble", sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+  }
+
+  .header {
+      background-color: black;
+      display: grid;
+      grid-template-columns: 30vh 80vh;
+
+  }
+  
+  .logo {
+      background-color: red;
+      height: 30px;
+      width: 45px;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+
+  }
+
+  .menu {
+      background-color: red;
+      height: 30px;
+      width: 500px;
+      margin-top: 10px;
+      margin-left: 800px;
+      margin-bottom: 10px;
+
+  }
+
+  .header_2 {
+      background-color: red;
+      display: grid;
+      grid-template-columns: 300px 150px;
+      grid-gap: 700px;
+      height: 50px;
+      width: auto;
+      margin-left: 0px;
+
+
+  }
+
+  .menu_2 {
+      background-color: black;
+      margin-left: 100px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      width: 300px;
+  }
+
+  .search {
+      background-color: black;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+
+  .ad {
+      background-color: rgb(46, 73, 21);
+      display: grid;
+      grid-template-rows: 60vh 40vh;
+      grid-gap: 20px;
+      height: 500px;
+
+  }
+
+  .text {
+      background-color: red;
+      height: 100px;
+      width: 400px;
+      margin-top: 200px;
+      margin-left: 200px;
+
+  }
+
+  .menu_3 {
+      background-color: red;
+      height: 80px;
+      width: 250px;
+      margin-top: -120px;
+      margin-left: 200px;
+  }
+
+  .ad_2 {
+      background-color: black;
+      display: grid;
+      grid-template-rows: 60vh 40vh;
+      grid-gap: 20px;
+      height: 500px;
+      border: 5px black;
+  }
+
+  .text_2 {
+    background-color: red;
+    height: 100px;
+    width: 400px;
+    margin-top: 200px;
+    margin-left: 200px;
+  }
+
+  .menu_4 {
+    background-color: red;
+    height: 80px;
+    width: 250px;
+    margin-top: -120px;
+    margin-left: 200px;
+  }
+
+  .bar {
+      background-color: red;
+      display: grid;
+      grid-template-columns: 40vh 40vh 40vh 40vh;
+      grid-gap: 30px;
+  }
+
+  .image_2 {
+      background-color: rgb(46, 73, 21);
+      height: 200px;
+      width: 250px;
+      margin-top: 40px;
+      margin-left: 160px;
+      margin-bottom: 40px;
+  }
+
+  .products {
+      background-color: black;
+      display: grid;
+      grid-template-columns: 70vh 70vh;
+      grid-gap: 40px;
+      height: 400px;
+  }
+
+  .image_3 {
+      background-color: red;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      margin-left: 80px;
+      width: 600px;
+
+  }
+
+  .image_4{
+      background-color: red;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      width: 600px;
+      margin-left: 300px;
+  }
+
+  .texts {
+      background-color: black;
+      display: grid;
+      grid-template-columns: 70vh 70vh;
+      grid-gap: 257px;
+      height: 300px;
+  }
+
+  .text_3 {
+      background-color: red;
+      margin-bottom: 40px;
+      margin-left: 80px;
+      height: 100px;
+      width: 600px;
+      margin-top: -20px;
+  }
+
+  .shops {
+      background-color: black;
+      display: grid;
+      grid-template-columns: 70vh 70vh;
+      grid-gap: 250px;
+  }
+
+  .shop {
+      background-color: red;
+      height: 80px;
+      width: 300px;
+      margin-top: -200px;
+      margin-left: 230px;
+  }
+
+  .title {
+      background-color: rgb(46, 73, 21);
+      height: 100px;
+      margin-top: -30px;
+
+
+  }
+
+  .type {
+      background-color: red;
+      height: 80px;
+      width: 300px;
+      margin: auto;
+  }
+
+  .images {
+      background-color: red;
+      display: grid;
+      grid-template-columns: 40vh 40vh 40vh 40vh;
+      grid-gap: 40px;
+
+  }
+
+  .image_5 {
+      background-color: black;
+      height: 200px;
+      width: 300px;
+      margin-left: 150px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+
+  .trending {
+      background-color: red;
+      display: grid;
+      grid-template-columns: 40vh 40vh 40vh 40vh;
+      grid-gap: 40px;
+  }
+
+  .price {
+      background-color: black;
+      height: 50px;
+      margin-left: 150px;
+  }
+
+  .paragraphs {
+      background-color: rgb(46, 73, 21);
+      display: grid;
+      grid-template-columns: 60vh 60vh;
+      grid-gap: 40px;
+  }
+
+  .words {
+      background-color: red;
+      height: 300px;
+      width: 400px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 300px;
+  }
+
+  .bar_2 {
+      background-color: red;
+      display: grid;
+      grid-template-columns: 60vh 60vh;
+  }
+
+  .text_4 {
+      background-color: black;
+      height: 100px;
+      width: 350px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 250px;
+
+  }
+
+  .shop_2 {
+      background-color: black;
+      height: 100px;
+      width: 250px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 300px;
+  }
+
+  .menus {
+      background-color: rgb(46, 73, 21);
+      display: grid;
+      grid-template-columns: 40vh 40vh 40vh 40vh 40vh;
+  }
+
+  .words_2 {
+      background-color: red;
+      height: 200px;
+      width: 250px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      margin-left: 50px;
+  }
+
+  .footer {
+      background-color: black;
+      height: 100px;
+
+  }
+
+  .menu_6 {
+      background-color: rgb(46, 73, 21);
+      height: 80px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: 400px;
+      width: 700px;
+
+  }
