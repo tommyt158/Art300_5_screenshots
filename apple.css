@@ -118,9 +118,11 @@ body {
 
   .image_3 {
       background-color: blue;
-      height: 200px;
+      height: 300px;
       width: 300px;
-      
+      margin-top: 40px;
+      margin-left: 400px;
+
 
 
   }
@@ -128,7 +130,9 @@ body {
   .text_2 {
       background-color: black;
       height: 100px;
-      width: 150px;
+      width: 200px;
+      margin-top: 170px;
+      margin-left: 50px;
 
   }
 
